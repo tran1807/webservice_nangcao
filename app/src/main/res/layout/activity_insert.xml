@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFDCDC"
+    tools:context=".InsertActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm nhân viên"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textColor="#E91E63"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textViewManvthem"
+        android:layout_width="94dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="83dp"
+        android:textSize="20dp"
+        android:text="MaNV:" />
+
+    <TextView
+        android:id="@+id/textViewTennvthem"
+        android:layout_width="94dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/textViewManvthem"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="144dp"
+        android:textSize="20dp"
+        android:text="TenNV:" />
+
+    <TextView
+        android:id="@+id/textViewSdtthem"
+        android:layout_width="94dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="209dp"
+        android:textSize="20dp"
+        android:text="SDT:" />
+
+    <EditText
+        android:id="@+id/editTextTennvthem"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nhập tên" />
+
+    <EditText
+        android:id="@+id/editTextManvthem"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nhập mã" />
+
+    <EditText
+        android:id="@+id/editTextSdtthem"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="199dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Nhập số" />
+
+    <Button
+        android:id="@+id/buttonThemthem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="450dp"
+        android:text="Thêm" />
+
+    <Button
+        android:id="@+id/buttonThoatthem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="450dp"
+        android:text="Thoát" />
+
+    <ImageView
+        android:id="@+id/imageViewAnhThem"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="271dp"
+        android:layout_marginEnd="285dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/buttonChuphinhthem"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="64dp"
+        android:text="Chụp Hình" />
+
+    <Button
+        android:id="@+id/buttonChonhinhthem"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="331dp"
+        android:layout_marginEnd="64dp"
+        android:text="Chọn Hình" />
+
+
+</RelativeLayout>

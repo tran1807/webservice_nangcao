@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DFDCDC">
+
+    <TextView
+        android:id="@+id/textViewwManv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã nhân viên"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="110dp"/>
+    <TextView
+        android:id="@+id/textViewwTennv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên nhân viên"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="110dp"/>
+    <TextView
+        android:id="@+id/textViewwSdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên nhân viên"
+        android:textSize="20dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="110dp"/>
+
+    <ImageButton
+        android:id="@+id/ImagebuttonDelete"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="5dp"
+        android:src="@android:drawable/ic_delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <ImageButton
+        android:id="@+id/ImagebuttonUpdate"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="55dp"
+        android:src="@android:drawable/ic_menu_edit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textViewwSdt"
+        android:layout_marginTop="28dp"
+        android:background="#0E0E0E" />
+
+    <ImageView
+        android:id="@+id/imageViewAnhh"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+</RelativeLayout>
